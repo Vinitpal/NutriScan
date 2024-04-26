@@ -95,7 +95,7 @@ export default function Process() {
 
               <input
                 type='text'
-                className='w-full md:w-1/2 mt-4 p-2 border-2 rounded-md'
+                className='w-full md:w-1/2 mt-4 p-2 border-2 rounded-md !text-black'
                 placeholder='e.g. Brand Name + Product Name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
