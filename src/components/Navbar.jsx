@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = ({ font }) => {
   return (
@@ -9,24 +10,24 @@ const Navbar = ({ font }) => {
       <Image src='/images/logo.png' alt='logo' width={162} height={38} />
 
       <div className='hidden md:flex gap-8 items-center'>
-        <a
-          href='#'
+        <Link
+          href='/'
           className='font-semibold text-lg hover:text-orange-400 transition-colors duration-300'
         >
           Home
-        </a>
-        <a
-          href='#'
+        </Link>
+        <Link
+          href='/'
           className='font-semibold text-lg hover:text-orange-400 transition-colors duration-300'
         >
           About
-        </a>
-        <a
-          href='#'
+        </Link>
+        <Link
+          href='/'
           className='font-semibold text-lg hover:text-orange-400 transition-colors duration-300'
         >
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );
