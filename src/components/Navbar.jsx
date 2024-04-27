@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Navbar = ({ font }) => {
   return (
     <nav
-      className={`py-4 px-8 flex items-center justify-center md:justify-between sticky top-0 ${font.className} bg-white`}
+      className={`py-4 px-8 text-black flex items-center justify-center md:justify-between sticky top-0 ${font.className} bg-white`}
     >
       <Image src='/images/logo.png' alt='logo' width={162} height={38} />
 

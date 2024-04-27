@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,11 +35,14 @@ body {
 }
 
 .text-gradient {
-  @apply bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text;
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .orange-gradient {
-  @apply bg-gradient-to-r from-primary to-secondary;
+  background: linear-gradient(to right, #f2c94c, #f2994a);
 }
 
 .cta {

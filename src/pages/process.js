@@ -100,7 +100,7 @@ export default function Process() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
-              <p className='mt-2'>
+              <p className='mt-2 text-black'>
                 if product is maggi then write Nestle Maggi
               </p>
             </div>
